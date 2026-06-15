@@ -1,7 +1,7 @@
 # Google Ads — TapeHer (qua landing purisia.com/lp/tapeher) · Tài liệu vận hành
 
 > **Mục đích:** Cấu hình campaign Google Ads để đẩy traffic vào landing comparison
-> `https://purisia.com/lp/tapeher/`, khách bấm ra affiliate `https://tapeher.com/?ref=serena1`.
+> `https://purisia.com/tapeher/`, khách bấm ra affiliate `https://tapeher.com/?ref=serena1`.
 > Tài liệu này copy thẳng vào Google Ads. Ad copy/keyword giữ **tiếng Anh**; hướng dẫn tiếng Việt.
 >
 > **Nguyên tắc sống còn:** thị trường mouth tape paid rất đắt. Dự án này chỉ có biên khi
@@ -148,7 +148,7 @@ affiliate
 ## 5. Ad copy RSA
 
 Mỗi ad group 1 RSA. **Headline ≤ 30 ký tự · Description ≤ 90 ký tự.**
-**Final URL =** `https://purisia.com/lp/tapeher/` (cho cả 2 AG).
+**Final URL =** `https://purisia.com/tapeher/` (cho cả 2 AG).
 **Tracking template / UTM:** UTM (`utm_source=google&utm_medium=cpc&utm_campaign=tapeher_lp&utm_content=…`)
 **đã được gắn sẵn trên link affiliate trong landing**. ⇒ **KHÔNG** thêm UTM vào Final URL hay
 Tracking template của Google Ads → tránh double-UTM. Để Final URL "sạch" như trên.
@@ -211,10 +211,10 @@ Thêm ở cấp campaign/ad group (Ads & assets → Assets).
 
 | Sitelink text | URL |
 |---|---|
-| How to use | `https://purisia.com/lp/tapeher/#how-h` |
-| Is it safe? | `https://purisia.com/lp/tapeher/#faq-h` |
-| Best for sensitive skin | `https://purisia.com/lp/tapeher/#rev-h` |
-| Compare top 5 | `https://purisia.com/lp/tapeher/#cmp-h` |
+| How to use | `https://purisia.com/tapeher/#how-h` |
+| Is it safe? | `https://purisia.com/tapeher/#faq-h` |
+| Best for sensitive skin | `https://purisia.com/tapeher/#rev-h` |
+| Compare top 5 | `https://purisia.com/tapeher/#cmp-h` |
 
 > Anchor có thật trong landing: `#how-h` (how to use), `#cmp-h` (comparison), `#rev-h` (review),
 > `#faq-h` (FAQ/safety), `#final-h` (final CTA), `#ru-h`. **Trước khi chạy, mở landing kiểm tra
@@ -327,7 +327,7 @@ Tạo conversion để Google hiểu giá trị (dù chỉ là **proxy**, không
 
 - [ ] **Gtag ID thật đã gắn?** — landing hiện đang để placeholder `G-XXXXXXXXXX`. **Phải thay
       bằng Measurement ID GA4 thật** rồi re-deploy purisia, nếu không **không đo được outbound** → mù hoàn toàn.
-- [ ] **Domain purisia.com đã trỏ & live HTTPS?** Mở `https://purisia.com/lp/tapeher/` trên mobile thật.
+- [ ] **Domain purisia.com đã trỏ & live HTTPS?** Mở `https://purisia.com/tapeher/` trên mobile thật.
 - [ ] **Landing live & link affiliate sống?** Bấm thử mọi CTA (hero/comparison/review/final/sticky) →
       ra `tapeher.com/?ref=serena1&...&utm_content=…` đúng, mở tab mới, `rel="sponsored noopener"`.
 - [ ] **Anchor sitelink scroll đúng?** Thử `#how-h #cmp-h #rev-h #faq-h`.

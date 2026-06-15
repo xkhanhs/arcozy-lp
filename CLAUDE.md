@@ -36,7 +36,7 @@ npx wrangler pages deploy dist --project-name purisia --commit-message "deploy" 
 
 **Live URLs:**
 - `https://purisia.com/` — homepage
-- `https://purisia.com/lp/tapeher/` — money page TapeHer
+- `https://purisia.com/tapeher/` — money page TapeHer
 
 ---
 

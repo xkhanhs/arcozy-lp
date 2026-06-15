@@ -15,7 +15,7 @@ purisia/
 ```
 
 - Homepage:   https://purisia.com/
-- Money page: https://purisia.com/lp/tapeher/
+- Money page: https://purisia.com/tapeher/
 
 ## Deploy
 
